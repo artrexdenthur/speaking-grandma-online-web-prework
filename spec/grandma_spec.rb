@@ -3,12 +3,12 @@ describe '#speak_to_grandma' do
     expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
   end
 
-  it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
-    expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
+  it 'responds with HUH?! SPEAK UP, DEAR! unless you are shouting' do
+    expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, DEAR!'
   end
 
-  it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
-    expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
+  it 'responds with HUH?! SPEAK UP, DEAR! for a second time' do
+    expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, DEAR!'
   end
 
   it 'responds with NO, NOT SINCE 1938! when she can hear you' do
