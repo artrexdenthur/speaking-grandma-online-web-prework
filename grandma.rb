@@ -13,6 +13,13 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  case phrase.upcase
-  when phrase
+  case phrase
+  when 'I LOVE YOU GRANDMA!'
+    'I LOVE YOU TOO PUMPKIN!'
+  when phrase.upcase
+    'NO, NOT SINCE 1938!'
+  else
+    'HUH?! SPEAK UP, DEAR!'
+  end
+end
     
